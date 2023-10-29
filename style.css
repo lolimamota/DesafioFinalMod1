@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FD6A9A;    
+}
+
+header{
+    border: solid red;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    border: solid lime;
+    width: clamp(16.5rem, 30vw, 35rem);
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+.oculta{
+    display: none;
+}
+
+@media screen and (min-width:769px){
+    .oculta{
+        display: flex;
+    }
+}
