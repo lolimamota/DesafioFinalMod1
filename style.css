@@ -65,6 +65,34 @@ li > img{
     width: 100px;
 }
 
+.dogLeao{
+    background-image: url('./imagens/dogLeao_mob.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.preto{
+    font-size: 1.6em;
+    border-radius: 60px 60px 60px 60px;
+    width: 200px;
+    height: 45px;
+    border-color: #3A342F;
+    background-color: #3A342F;
+    color: #f4f2f3;
+}
+
+.branco{
+    font-size: 2em;
+    border-radius: 60px 60px 60px 60px;
+    width: 350px;
+    height: 85px;
+    border-color: #fff;
+    background-color: #fff;
+    color: #000;
+    margin-right: 10rem;
+}
+
 @media screen and (min-width:769px){
     .insta, .yt{
         display: flex;
