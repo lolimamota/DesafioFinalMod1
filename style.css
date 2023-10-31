@@ -17,6 +17,7 @@ header{
 
 .logo{
     width: clamp(12.5rem, 30vw, 35rem);
+    padding: 0.5rem;
 }
 
 .redesSociais{
@@ -41,7 +42,7 @@ li > img{
     background-image: url('./imagens/dogChapeu_mob.png');
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 75vh;
 }
 
 .divDogChapeu{
@@ -51,7 +52,6 @@ li > img{
     justify-content: center;
     color: #fff;
     text-align: center;
-    background-attachment: fixed;
 }
 
 .divDogChapeu h2{
@@ -66,6 +66,8 @@ li > img{
 }
 
 .dogLeao{
+    width: 100%;
+    height: 100vh;
     background-image: url('./imagens/dogLeao_mob.png');
     background-position: top;
     background-repeat: no-repeat;
@@ -94,14 +96,35 @@ li > img{
 }
 
 @media screen and (min-width:769px){
+    .logo{
+        width: clamp(12.5rem, 25vw, 35rem);
+        padding: 1.5rem;
+    }
+    .redesSociais{
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+    li > img{
+        width: 3rem;
+    }
     .insta, .yt{
         display: flex;
     }
     .dogChapeu{
         width: 100%;
-        height:75vh;
+        height:120vh;
         background-image: url('./imagens/dogChapeu_web.png');
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: 100% 120vh;
+    }
+    .divDogChapeu h2{
+        width: 140vh;
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 6.9rem;
+    }
+    .divDogChapeu img{
+        margin-top: 1rem;
+        width: 150px;
     }
 }
