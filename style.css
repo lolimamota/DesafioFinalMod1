@@ -192,29 +192,29 @@ li > img{
     }
     .dogChapeu{
         width: 100%;
-        height:120vh;
+        height:140vh;
         background-image: url('./imagens/dogChapeu_web.png');
         background-repeat: no-repeat;
-        background-size: 100% 120vh;
+        background-size: 100% 140vh;
     }
     .divDogChapeu h2{
-        width: 140vh;
+        width: 60vw;
         text-align: center;
-        margin-top: 1rem;
         font-size: 6rem;
+        margin-top: 4rem;
     }
     .divDogChapeu img{
-        margin-top: 1rem;
+        margin-top: 8rem;
         width: 150px;
     }
     .dogLeao{
         width: 100%;
-        height: 120vh;
+        height: 150vh;
         background-image: url('./imagens/dogLeao_web.png');
         background-position: top;
         background-repeat: no-repeat;
         background-size: contain;
-        background-size: 100% 120vh;
+        background-size: 100% 150vh;
     }
     .divDogLeao{
         width: 40%;
@@ -234,13 +234,13 @@ li > img{
     }
     .dogLado{
         width: 100%;
-        height: 120vh;
+        height: 150vh;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: center;
         background-image: url('./imagens/dogLado_web.png');
-        background-size: 100% 120vh;
+        background-size: 100% 150vh;
     }
     .divDogLado{
         width: 40vw;
