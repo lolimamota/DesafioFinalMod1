@@ -100,7 +100,7 @@ li > img{
     height: 100vh;
     background-image: url('./imagens/dogLado_mob.png');
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    background-size: 100% auto;
 }
 .divDogLado{
     width: 100%;
@@ -113,12 +113,16 @@ li > img{
 
 .divDogLado h2{
     font-size: 1.9rem;
-    margin-top: 1.5rem;
 }
 
 .divDogLado p{
     font-size: 1.1rem;
     margin-top: 0.5rem;
+}
+
+.jaba{
+    background-color: #fff;
+    display:flex;
 }
 
 .preto{
@@ -201,6 +205,29 @@ li > img{
         font-size: 2.8rem;
     }
     .preto{
+        width: 250px;
+        height: 80px;
+        font-size: 1.8rem;
+    }
+    .dogLado{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        background-image: url('./imagens/dogLado_web.png');
+    }
+    .divDogLado{
+        width: 40vw;
+        height: 60vh;
+        margin-right: 10vw ;
+    }
+    .divDogLado h2{
+        font-size: 2.8rem;
+    }
+    .divDogLado p{
+        font-size: 1.6rem;
+    }
+    .branco{
         width: 250px;
         height: 80px;
         font-size: 1.8rem;
