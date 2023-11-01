@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Serif', serif;
 }
@@ -97,10 +98,10 @@ li > img{
 
 .dogLado{
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-image: url('./imagens/dogLado_mob.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 85vh;
 }
 .divDogLado{
     width: 100%;
@@ -121,8 +122,30 @@ li > img{
 }
 
 .jaba{
+    height: 15vh;
     background-color: #fff;
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jaba ul{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jaba li img{
+    width: 15vh;
+}
+
+.jaba h3{
+    font-size: 0.6rem;
+    margin-top: 1rem;
+    color: #FD6A9A;
 }
 
 .preto{
@@ -210,11 +233,14 @@ li > img{
         font-size: 1.8rem;
     }
     .dogLado{
+        width: 100%;
+        height: 120vh;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: center;
         background-image: url('./imagens/dogLado_web.png');
+        background-size: 100% 120vh;
     }
     .divDogLado{
         width: 40vw;
