@@ -297,6 +297,7 @@ li > img{
         width: 60%;
     }
     .finale{
+        border: solid yellow;
         background-color: #EB4A7B;
         height: 30vh;
         color: #fff;
@@ -313,7 +314,9 @@ li > img{
         display: none;
     }
     .divFinale{
+        border: solid purple;
         text-align: left;
+        align-items: flex-start;
     }
     .divFinale h2{
         text-align: left;
