@@ -131,15 +131,16 @@ li > img{
 }
 
 .jaba ul{
+    border: solid purple;
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .jaba li img{
-    width: 15vh;
+    width: 10vw;
 }
 
 .jaba h3{
@@ -147,6 +148,8 @@ li > img{
     margin-top: 1rem;
     color: #FD6A9A;
 }
+
+
 
 .preto{
     font-size: 1.2rem;
@@ -257,5 +260,17 @@ li > img{
         width: 250px;
         height: 80px;
         font-size: 1.8rem;
+    }
+    .jaba{
+        flex-direction: row;
+    }
+    .jaba li img{
+        width: 20vw;
+    }
+    .jaba h3{
+        font-size: 2.5rem;
+    }
+    .jaba ul{
+        width: 60%;
     }
 }
