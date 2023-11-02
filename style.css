@@ -174,30 +174,26 @@ li > img{
     margin-top: 1rem;
 }
 
-.preto{
+.preto, .branco{
     font-size: 1.2rem;
     font-family: 'Roboto Serif', serif;
     font-weight: 400;
     border-radius: 60px 60px 60px 60px;
     width: 160px;
     height: 60px;
-    border-color: #3A342F;
-    background-color: #3A342F;
-    color: #f4f2f3;
     margin-top: 1rem;
 }
 
+.preto{
+    border-color: #3A342F;
+    background-color: #3A342F;
+    color: #f4f2f3;
+}
+
 .branco{
-    font-size: 1.2rem;
-    font-family: 'Roboto Serif', serif;
-    font-weight: 400;
-    border-radius: 60px 60px 60px 60px;
-    width: 160px;
-    height: 60px;
     border-color: #fff;
     background-color: #fff;
     color: #000;
-    margin-top: 1rem;
     margin-right: 9rem;
 }
 
@@ -253,7 +249,7 @@ li > img{
     .divDogLeao h2{
         font-size: 2.8rem;
     }
-    .preto{
+    .preto, .branco{
         width: 250px;
         height: 80px;
         font-size: 1.8rem;
@@ -279,11 +275,6 @@ li > img{
     .divDogLado p{
         font-size: 1.6rem;
     }
-    .branco{
-        width: 250px;
-        height: 80px;
-        font-size: 1.8rem;
-    }
     .jaba{
         flex-direction: row;
     }
@@ -306,10 +297,7 @@ li > img{
         align-items: center;
         text-align: left;
     }
-    .fantaFinale{
-        display: none;
-    }
-    .A{
+    .fantaFinale, .A{
         display: none;
     }
     .divFinale{
