@@ -151,6 +151,7 @@ li > img{
     display: flex;
     flex-direction: column;
     color: #fff;
+    align-items: center;
 }
 
 .fantaFinale{
